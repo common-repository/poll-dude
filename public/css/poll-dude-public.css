@@ -1,0 +1,107 @@
+.poll-dude-pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background: #d8e1eb;
+	border: 1px solid #c8c8c8;
+}
+
+.poll-dude ul li, .poll-dude-ul li, .poll-dude-ans ul li {
+	text-align: left;
+	background-image: none;
+	display: block;
+}
+.poll-dude ul, .poll-dude-ul, .poll-dude-ans ul  {
+	text-align: left;
+	list-style: none;
+	float: none;
+}
+.poll-dude ul li:before, .poll-dude-ans ul li:before, #sidebar ul ul li:before {
+	content: '';
+}
+.poll-dude IMG, .poll-dude LABEL , .poll-dude INPUT, .poll-dude-loading IMG, .poll-dude-image IMG {
+	display: inline;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.poll-dude-ul {
+	padding: 0px;
+	margin: 0px 0px 10px 10px;
+}
+.poll-dude-ans {
+	width:100%;
+	
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+	
+	/* background-color: #ffffff; */
+}
+.poll-dude-loading {
+	display: none;
+	text-align: center;
+	height: 16px;
+	line-height: 16px;
+}
+.poll-dude-image {
+	border: 0px;
+}
+.poll-dude .Buttons {
+	border:1px solid #c8c8c8;
+	background-color: #f3f6f8;
+}
+/* Polls Archive Paging */
+.poll-dude-paging a, .poll-dude-paging a:link {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.poll-dude-paging a:visited {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.poll-dude-paging a:hover {	
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.poll-dude-paging a:active {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	text-decoration: none;
+	border: 1px solid #0066cc;
+	color: #0066cc;
+	background-color: #FFFFFF;	
+}
+.poll-dude-paging span.pages {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px 2px 2px 2px;
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+.poll-dude-paging span.current {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;
+	font-weight: bold;
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.poll-dude-paging span.extend {
+	padding: 2px 4px 2px 4px; 
+	margin: 2px;	
+	border: 1px solid #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
